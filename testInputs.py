@@ -26,9 +26,21 @@
 # print('is_prime', is_prime)
 
 #Define functions
-def greet(name):
-    print(f'Hello {name}, how are ya today?')
+# def greet(name):
+#     print(f'Hello {name}, how are ya today?')
+#
+# user_name= str( input("What's your lovely name? "))
+# greet(user_name)
+# print("That's all for now")
 
-user_name= str( input("What's your lovely name? "))
-greet(user_name)
+#avg numbers
+def avg(a,b):
+    avg = (a+b) / 2
+    return avg
+x= int(input("ENTER THE FIRST NUMBER:: "))
+y= int(input("ENTER THE SECOND NUMBER:: "))
+
+avg= avg(x,y)
+print(f'Your avg is:: {avg}')
+
 
