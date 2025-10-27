@@ -9,8 +9,16 @@
 #     c = test - 278
 #     print('The temperature is', c)
 
-input_number = int(input('input a number:'))
-if input_number % 2 == 0:
-    print("That's an even number ")
-else :
-    print ("That's an odd number")
+# input_number = int(input('input a number:'))
+# if input_number % 2 == 0:
+#     print("That's an even number ")
+# else :
+#     print ("That's an odd number")
+
+
+n= int (input("Enter a number: "))
+is_prime = True
+for k in range (2,n):
+        if n % k == 0:
+            is_prime = False
+print('is_prime', is_prime)
