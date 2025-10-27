@@ -18,9 +18,17 @@
 #     print ("That's an odd number")
 
 #Determine if Prime
-n= int (input("Enter a number: "))
-is_prime = True
-for k in range (2,n):
-        if n % k == 0:
-            is_prime = False
-print('is_prime', is_prime)
+# n= int (input("Enter a number: "))
+# is_prime = True
+# for k in range (2,n):
+#         if n % k == 0:
+#             is_prime = False
+# print('is_prime', is_prime)
+
+#Define functions
+def greet(name):
+    print(f'Hello {name}, how are ya today?')
+
+user_name= str( input("What's your lovely name? "))
+greet(user_name)
+
