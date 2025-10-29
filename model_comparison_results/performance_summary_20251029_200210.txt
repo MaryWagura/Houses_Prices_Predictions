@@ -1,0 +1,13 @@
+MNIST Classification Model Comparison Summary
+==================================================
+
+Model           Accuracy   F1-Score   Training Time  
+--------------------------------------------------
+RBF SVM         98.34    % 98.34    % 195.87        s
+Polynomial SVM  98.04    % 98.04    % 136.07        s
+Linear SVM      93.59    % 93.57    % 241.95        s
+KNN             97.17    % 97.17    % 120.32        s
+Random Forest   96.50    % 96.50    % 89.45         s
+SGD             91.39    % 91.39    % 45.67         s
+
+Generated on: 2025-10-29 20:07:50
