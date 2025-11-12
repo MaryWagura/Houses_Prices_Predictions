@@ -1,0 +1,24 @@
+ENHANCED MNIST CLASSIFICATION MODEL COMPARISON SUMMARY
+============================================================
+
+This analysis compares six machine learning models on the MNIST dataset.
+Dataset: 70,000 handwritten digits (28x28 pixels)
+Train-Test Split: 80%-20%
+
+Model              Accuracy     F1-Score     Training Time  
+------------------------------------------------------------
+RBF SVM            98.34      % 98.34      % 195.87        s
+Polynomial SVM     98.04      % 98.04      % 136.07        s
+Linear SVM         93.59      % 93.57      % 241.95        s
+KNN                97.11      % 97.11      % 120.32        s
+Random Forest      96.50      % 96.50      % 89.45         s
+SGD                91.39      % 91.39      % 45.67         s
+
+Key Findings:
+- RBF SVM achieves highest accuracy but requires longest training time
+- SGD offers fastest training with acceptable accuracy for rapid prototyping
+- Polynomial SVM provides excellent balance between accuracy and efficiency
+- All models achieve >91% accuracy, demonstrating MNIST's learnability
+
+Generated on: 2025-11-12 16:12:23
+Total models evaluated: 6
